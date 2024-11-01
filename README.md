@@ -36,5 +36,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## run api
+install [json-server](https://www.npmjs.com/package/json-server)
 
+```bash
 json-server api/db.json
+```
+
+## unittest
+```bash
+pnpm test
+# or
+npm run test
+```
